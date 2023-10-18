@@ -1,6 +1,10 @@
 # Danswer monitor
 
 This is a simple monitoring software used to monitor Danswer pods inside a Kubernetes cluster.
+
+![enter image description here](https://raw.githubusercontent.com/meherhendi/danswer-monitoring/main/img/grafana-screen.png)
+
+
 # Prerequisite
 * Deploy Danswer (https://github.com/danswer-ai/danswer/tree/main/deployment/kubernetes)
 * Helm
