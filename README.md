@@ -31,4 +31,4 @@ kubectl get secret --namespace monitoring my-grafana -o jsonpath="{.data.admin-p
 5- Connect to Grafana using admin:""password-from-previous-step""\
 6- Add Prometheus as a data source to Grafana\
 7- import Grafana dashboard from "danswer-grafana-dashboard.json" file\
-8- congrats, you have monitoring for the Danswer\
+8- congrats, you have monitoring for the Danswer
