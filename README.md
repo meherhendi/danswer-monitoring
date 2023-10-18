@@ -28,7 +28,7 @@ kubectl port-forward service/grafana 3001:80 -n monitoring
 ```
 kubectl get secret --namespace monitoring my-grafana -o jsonpath="{.data.admin-password}"  | base64 --decode ;  echo
 ```
-5- Connect to Grafana using admin:""password-from-previous-step"""
-6- Add Prometheus as a data source to Grafana
-7- import Grafana dashboard from "danswer-grafana-dashboard.json" file
-8- congrats, you have monitoring for the Danswer 
+5- Connect to Grafana using admin:""password-from-previous-step""\
+6- Add Prometheus as a data source to Grafana\
+7- import Grafana dashboard from "danswer-grafana-dashboard.json" file\
+8- congrats, you have monitoring for the Danswer\
